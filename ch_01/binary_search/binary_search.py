@@ -21,6 +21,4 @@ def binary_search(collection, element):
             high = mid
         elif element > collection[mid]:
             low = mid
-
-# Examples
-print(binary_search(range(100), 8))
+    return -1
